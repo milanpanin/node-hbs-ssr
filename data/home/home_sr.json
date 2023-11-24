@@ -1,0 +1,45 @@
+{
+  "lang": "sr",
+  "head": {
+    "title": "NodeJS SSR",
+    "meta": [
+      {
+        "name": "description",
+        "content": "Node + Handlebars"
+      },
+      {
+        "name": "keywords",
+        "content": "Node + Handlebars"
+      }
+    ]
+  },
+  "langSwitcher": {
+    "items": [
+      {
+        "link": "/en/home",
+        "label": "EN"
+      },
+      {
+        "link": "/sr/home",
+        "label": "SR"
+      }
+    ]
+  },
+  "navigation": {
+    "title": "Renderovanje stranice na serveru sa NodeJS-om",
+    "items": [
+      {
+        "link": "/sr/home",
+        "label": "Pocetna"
+      },
+      {
+        "link": "/sr/about",
+        "label": "O nama"
+      }
+    ]
+  },
+  "hero": {
+    "title": "Pocetna stranica",
+    "text": "Ovo je početna stranica. Ova stranica se renderuje na serveru sa NodeJS-om. Sadržaj stranice se nalazi u JSON koji se putem Handlebars-a renderuje na serveru."
+  }
+}

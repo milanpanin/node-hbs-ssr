@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+	<head>
+		<title>{{head.title}}</title>
+
+		<!-- Meta -->
+		{{#each head.meta}}
+			<meta name="{{this.name}}" content="{{this.content}}">
+		{{/each}}
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Style -->
+		<link rel="stylesheet" href="../style/style.css">
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans+Caption&family=Ubuntu&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<main class="main">
+			<section class="lang_switcher">
+				<ul class="lang_switcher_list">
+					{{#each langSwitcher.items}}
+						<li class="lang_switcher_item"><a href="{{this.link}}">{{this.label}}</a></li>
+					{{/each}}
+				</ul>
+			</section>
+
+			<nav class="nav">
+				<h2 class="nav_title">{{navigation.title}}</h2>
+				<ul class="nav_items">
+					{{#each navigation.items}}
+						<li class="nav_item"><a href="{{this.link}}">{{this.label}}</a></li>
+					{{/each}}
+				</ul>
+			</nav>
+
+			<section class="hero">
+				<div class="hero_content">
+					<h1 class="hero_title">{{hero.title}}</h1>
+					<p class="hero_text">{{hero.text}}</p>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

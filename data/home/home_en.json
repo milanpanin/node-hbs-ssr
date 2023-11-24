@@ -1,0 +1,45 @@
+{
+  "lang": "en",
+  "head": {
+    "title": "NodeJS SSR",
+    "meta": [
+      {
+        "name": "description",
+        "content": "Node + Handlebars"
+      },
+      {
+        "name": "keywords",
+        "content": "Node + Handlebars"
+      }
+    ]
+  },
+  "langSwitcher": {
+    "items": [
+      {
+        "link": "/en/home",
+        "label": "EN"
+      },
+      {
+        "link": "/sr/home",
+        "label": "SR"
+      }
+    ]
+  },
+  "navigation": {
+    "title": "Server Side Rendering with NodeJS",
+    "items": [
+      {
+        "link": "/en/home",
+        "label": "Home"
+      },
+      {
+        "link": "/en/about",
+        "label": "About"
+      }
+    ]
+  },
+  "hero": {
+    "title": "Home page",
+    "text": "This is the home page. It is rendered on the server side. The content is fetched from a JSON file and rendered using Handlebars. The page is then served to the client."
+  }
+}
